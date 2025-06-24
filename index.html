@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexova Designs - Next-Gen Web Design. Fixed Pricing. Infinite Vision.</title>
+    <meta name="description" content="Professional web development at fixed costs. No surprises, only results. Get stunning websites that drive business growth.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="logo-loader">NEXOVA</div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>NEXOVA DESIGNS</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>🚀 #1 Web Development Agency</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="gradient-text">Next-Gen Web Design.</span><br>
+                    Fixed Pricing. Infinite Vision.
+                </h1>
+                <p class="hero-subtitle">
+                    Web Development at Fixed Costs. No Surprises. Only Results.<br>
+                    Transform your business with stunning, high-performance websites that drive growth.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>500+</h3>
+                        <p>Projects Delivered</p>
+                    </div>
+                    <div class="stat">
+                        <h3>98%</h3>
+                        <p>Client Satisfaction</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Support Available</p>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View Our Work</a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-phone"></i> Get Free Quote
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-elements">
+                    <div class="float-card card-1">
+                        <i class="fas fa-code"></i>
+                        <span>Clean Code</span>
+                    </div>
+                    <div class="float-card card-2">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Mobile First</span>
+                    </div>
+                    <div class="float-card card-3">
+                        <i class="fas fa-rocket"></i>
+                        <span>Fast Loading</span>
+                    </div>
+                    <div class="float-card card-4">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Secure</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+            <span>Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Services</span>
+                <h2>Everything Your Business Needs Online</h2>
+                <p>From simple websites to complex e-commerce platforms, we deliver results that matter.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Website Development</h3>
+                    <p>Custom, responsive websites built with modern technologies for optimal performance.</p>
+                    <ul>
+                        <li>Responsive Design</li>
+                        <li>SEO Optimized</li>
+                        <li>Fast Loading</li>
+                        <li>Mobile Friendly</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-commerce Solutions</h3>
+                    <p>Complete online stores with payment integration and inventory management.</p>
+                    <ul>
+                        <li>Payment Gateway</li>
+                        <li>Inventory System</li>
+                        <li>Order Management</li>
+                        <li>Customer Portal</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Applications</h3>
+                    <p>Native and cross-platform mobile apps for iOS and Android.</p>
+                    <ul>
+                        <li>iOS Development</li>
+                        <li>Android Development</li>
+                        <li>Cross-Platform</li>
+                        <li>App Store Optimization</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>SEO, social media marketing, and PPC campaigns to grow your online presence.</p>
+                    <ul>
+                        <li>SEO Optimization</li>
+                        <li>Social Media</li>
+                        <li>PPC Campaigns</li>
+                        <li>Content Marketing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section with Horizontal Scroll -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Portfolio</span>
+                <h2>Showcasing Our Capabilities</h2>
+                <p>Explore our collection of stunning websites across various industries</p>
+            </div>
+        </div>
+        <div class="portfolio-scroll">
+            <div class="portfolio-track">
+                <!-- Demo Website 1 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="demo-website healthcare">
+                            <div class="demo-header">
+                                <div class="demo-nav">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="demo-url">healthcareplus.com</div>
+                            </div>
+                            <div class="demo-content">
+                                <h3>HealthCare Plus</h3>
+                                <p>Complete medical platform</p>
+                                <div class="demo-features">
+                                    <span>Appointment Booking</span>
+                                    <span>Patient Portal</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Healthcare Platform</h3>
+                        <p>Advanced medical website with booking system</p>
+                        <span class="portfolio-tag">Healthcare</span>
+                    </div>
+                </div>
+
+                <!-- Demo Website 2 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="demo-website ecommerce">
+                            <div class="demo-header">
+                                <div class="demo-nav">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="demo-url">fashionstore.com</div>
+                            </div>
+                            <div class="demo-content">
+                                <h3>Fashion Store</h3>
+                                <p>Premium e-commerce experience</p>
+                                <div class="demo-features">
+                                    <span>Payment Gateway</span>
+                                    <span>Inventory System</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>Full-featured online store with payments</p>
+                        <span class="portfolio-tag">E-commerce</span>
+                    </div>
+                </div>
+
+                <!-- Demo Website 3 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="demo-website restaurant">
+                            <div class="demo-header">
+                                <div class="demo-nav">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="demo-url">deliciousbites.com</div>
+                            </div>
+                            <div class="demo-content">
+                                <h3>Delicious Bites</h3>
+                                <p>Restaurant & online ordering</p>
+                                <div class="demo-features">
+                                    <span>Online Menu</span>
+                                    <span>Table Booking</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Restaurant Website</h3>
+                        <p>Complete restaurant solution with ordering</p>
+                        <span class="portfolio-tag">Restaurant</span>
+                    </div>
+                </div>
+
+                <!-- Demo Website 4 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="demo-website realestate">
+                            <div class="demo-header">
+                                <div class="demo-nav">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="demo-url">primeproperty.com</div>
+                            </div>
+                            <div class="demo-content">
+                                <h3>Prime Property</h3>
+                                <p>Real estate marketplace</p>
+                                <div class="demo-features">
+                                    <span>Property Search</span>
+                                    <span>Virtual Tours</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Real Estate Platform</h3>
+                        <p>Advanced property listing website</p>
+                        <span class="portfolio-tag">Real Estate</span>
+                    </div>
+                </div>
+
+                <!-- Demo Website 5 -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="demo-website education">
+                            <div class="demo-header">
+                                <div class="demo-nav">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="demo-url">eduacademy.com</div>
+                            </div>
+                            <div class="demo-content">
+                                <h3>Edu Academy</h3>
+                                <p>Online learning platform</p>
+                                <div class="demo-features">
+                                    <span>Course Management</span>
+                                    <span>Student Portal</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Education Platform</h3>
+                        <p>Complete e-learning solution</p>
+                        <span class="portfolio-tag">Education</span>
+                    </div>
+                </div>
+
+                <!-- Continue with more demo websites... -->
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="demo-website finance">
+                            <div class="demo-header">
+                                <div class="demo-nav">
+                                    <span></span><span></span><span></span>
+                                </div>
+                                <div class="demo-url">securefinance.com</div>
+                            </div>
+                            <div class="demo-content">
+                                <h3>Secure Finance</h3>
+                                <p>Financial services portal</p>
+                                <div class="demo-features">
+                                    <span>Loan Calculator</span>
+                                    <span>Client Dashboard</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Finance Website</h3>
+                        <p>Professional financial services site</p>
+                        <span class="portfolio-tag">Finance</span>
+                    </div>
+                </div>
+
+                <!-- Add more portfolio items to reach 12-15 total -->
+            </div>
+        </div>
+        <div class="portfolio-controls">
+            <button class="portfolio-prev"><i class="fas fa-chevron-left"></i></button>
+            <button class="portfolio-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Process</span>
+                <h2>How We Deliver Excellence</h2>
+                <p>Our proven 4-step process ensures your project success</p>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Discovery & Planning</h3>
+                        <p>We understand your business goals, target audience, and project requirements to create the perfect strategy.</p>
+                        <ul>
+                            <li>Business analysis</li>
+                            <li>Competitor research</li>
+                            <li>Project roadmap</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Design & Prototyping</h3>
+                        <p>Our designers create stunning mockups and prototypes that align with your brand and user expectations.</p>
+                        <ul>
+                            <li>UI/UX design</li>
+                            <li>Interactive prototypes</li>
+                            <li>Client feedback</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Development & Testing</h3>
+                        <p>Clean, efficient code meets rigorous testing to ensure your website performs flawlessly across all devices.</p>
+                        <ul>
+                            <li>Clean development</li>
+                            <li>Quality assurance</li>
+                            <li>Performance optimization</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3>Launch & Support</h3>
+                        <p>We handle the launch and provide ongoing support to ensure your website continues to perform at its best.</p>
+                        <ul>
+                            <li>Smooth deployment</li>
+                            <li>Training session</li>
+                            <li>Ongoing maintenance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Fixed Pricing</span>
+                <h2>Transparent Pricing, No Hidden Costs</h2>
+                <p>Choose the perfect package for your business needs</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Simple</h3>
+                        <div class="price">₹4,000</div>
+                        <p>Perfect for small businesses</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 3-5 Pages</li>
+                        <li><i class="fas fa-check"></i> Mobile Responsive</li>
+                        <li><i class="fas fa-check"></i> Contact Form</li>
+                        <li><i class="fas fa-check"></i> Google Maps</li>
+                        <li><i class="fas fa-check"></i> Basic SEO</li>
+                        <li><i class="fas fa-check"></i> 1 Month Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Business</h3>
+                        <div class="price">₹7,000</div>
+                        <p>Ideal for growing businesses</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 5-8 Pages</li>
+                        <li><i class="fas fa-check"></i> Professional Design</li>
+                        <li><i class="fas fa-check"></i> WhatsApp Integration</li>
+                        <li><i class="fas fa-check"></i> Social Media Links</li>
+                        <li><i class="fas fa-check"></i> Basic E-commerce</li>
+                        <li><i class="fas fa-check"></i> SSL Certificate</li>
+                        <li><i class="fas fa-check"></i> 2 Months Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Premium</h3>
+                        <div class="price">₹12,000</div>
+                        <p>Complete business solution</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 10-20 Pages</li>
+                        <li><i class="fas fa-check"></i> Advanced E-commerce</li>
+                        <li><i class="fas fa-check"></i> Payment Gateway</li>
+                        <li><i class="fas fa-check"></i> Customer Portal</li>
+                        <li><i class="fas fa-check"></i> Analytics Setup</li>
+                        <li><i class="fas fa-check"></i> Performance Optimization</li>
+                        <li><i class="fas fa-check"></i> 6 Months Support</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2>Ready to Start Your Project?</h2>
+                <p>Let's discuss how we can help grow your business online</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 93248 68108</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>luckysi1234e@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Founder</h4>
+                            <p>Lucky - Web Development Expert</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Phone Number" required>
+                        <select required>
+                            <option value="">Select Budget</option>
+                            <option value="4000">₹4,000 - Simple</option>
+                            <option value="7000">₹7,000 - Business</option>
+                            <option value="12000">₹12,000 - Premium</option>
+                            <option value="custom">Custom Quote</option>
+                        </select>
+                    </div>
+                    <textarea placeholder="Tell us about your project" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>NEXOVA DESIGNS</h3>
+                    <p>Next-Gen Web Design. Fixed Pricing. Infinite Vision.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">E-commerce</a></li>
+                        <li><a href="#services">Mobile Apps</a></li>
+                        <li><a href="#services">Digital Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#process">Process</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> +91 93248 68108</p>
+                    <p><i class="fas fa-envelope"></i> luckysi1234e@gmail.com</p>
+                    <p><i class="fas fa-user"></i> Lucky - Founder</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Nexova Designs. All rights reserved. | Web Development at Fixed Costs. No Surprises. Only Results.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
